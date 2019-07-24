@@ -28,7 +28,7 @@ def send_email():
         server.starttls()
         server.ehlo()
 
-        server.login('tejocosmetics@gmail.com', 'google_pass')
+        server.login('tejocosmetics@gmail.com', 'google_password')
 
         subject = 'Subject: Valuable Busines Opportunity'
         body = 'template'
